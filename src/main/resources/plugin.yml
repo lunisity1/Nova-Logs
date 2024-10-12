@@ -1,0 +1,4 @@
+name: NovaLogs
+version: '${project.version}'
+main: dev.lunisity.novalogs.NovaLogs
+api-version: '1.20'

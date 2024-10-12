@@ -1,0 +1,153 @@
+Messages:
+  "NO-PERMISSION":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7You do not have permission to do that!"
+  "INVALID-USAGE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Invalid Usage! Usage: &f/logs <type> <player> <page>"
+  "SEARCH-INVALID-USAGE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Invalid Usage! Usage: &f/searchlogs <type> <player> <date> [startTime] [endTime] [page]"
+  "INVALID-PLAYER":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &f%player% &7either doesn't exist or hasn't logged in yet!"
+  "INVALID-PAGE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Invalid page! Please use a number between 1 and %maxPages%"
+  "NO-CHAT-LOGS":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no chat logs for &f%player%&7!"
+  "NO-LOGS-IN-MESSAGE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no chat logs for &f%player%&7 containing &f%message%&7!"
+  "NO-CHAT-LOGS-IN-TIME":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no chat logs for &f%player%&7 between &f%startTime% &7and &f%endTime%&7 on &f%date%&7!"
+  "NO-CHAT-LOGS-ON-DATE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no chat logs for &f%player%&7 on &f%date%&7!"
+  "INVALID-DATE-TIME":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Invalid date-time! Please use the format HH:mm"
+  "CHAT-SEARCHING-DATE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Searching for chat logs on &f%date%&7 for &f%player%&7!"
+  "CHAT-SEARCHING-TIME":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Searching for chat logs between &f%startTime% &7and &f%endTime%&7 on &f%date%&7 for &f%player%&7!"
+  "SEARCHING-MESSAGE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Searching for chat logs containing &f%message%&7 for &f%player%&7!"
+  "CHAT-LOGS-FOUND":
+    Message:
+      Enabled: true
+      Value:
+        - "&2&lChat Logs for &a&l%player%&r &7(Page %page% of %maxPages%)"
+        - "%logs%"
+  "NO-VOUCHER-LOGS":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no voucher logs for &f%player%&7!"
+  "NO-VOUCHER-LOGS-WITH-VOUCHER":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no voucher logs for &f%player%&7 containing &f%voucher%&7!"
+  "NO-VOUCHER-LOGS-IN-TIME":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no voucher logs for &f%player%&7 between &f%startTime% &7and &f%endTime%&7 on &f%date%&7!"
+  "NO-VOUCHER-LOGS-ON-DATE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no voucher logs for &f%player%&7 on &f%date%&7!"
+  "VOUCHER-SEARCHING-VOUCHER":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Searching for voucher logs containing &f%voucher%&7 for &f%player%&7!"
+  "VOUCHER-SEARCHING-DATE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Searching for voucher logs on &f%date%&7 for &f%player%&7!"
+  "VOUCHER-SEARCHING-TIME":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Searching for voucher logs between &f%startTime% &7and &f%endTime%&7 on &f%date%&7 for &f%player%&7!"
+  "VOUCHER-LOGS-FOUND":
+    Message:
+      Enabled: true
+      Value:
+        - "&2&lVoucher Logs for &a&l%player%&r &7(Page %page% of %maxPages%)"
+        - "%logs%"
+  "NO-COMMAND-LOGS":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no command logs for &f%player%&7!"
+  "NO-COMMAND-LOGS-IN-TIME":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no command logs for &f%player%&7 between &f%startTime% &7and &f%endTime%&7 on &f%date%&7!"
+  "NO-COMMAND-LOGS-ON-DATE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no command logs for &f%player%&7 on &f%date%&7!"
+  "NO-COMMAND-LOGS-WITH-COMMAND":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7There are no command logs for &f%player%&7 containing &f%command%&7!"
+  "SEARCHING-COMMAND":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Searching for command logs containing &f%command%&7 for &f%player%&7!"
+  "COMMAND-SEARCHING-TIME":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Searching for command logs between &f%startTime% &7and &f%endTime%&7 on &f%date%&7 for &f%player%&7!"
+  "COMMAND-SEARCHING-DATE":
+    Message:
+      Enabled: true
+      Value:
+        - "&8(&c!&8) &7Searching for command logs on &f%date%&7 for &f%player%&7!"
+  "COMMAND-LOGS-FOUND":
+    Message:
+      Enabled: true
+      Value:
+        - "&2&lCommand Logs for &a&l%player%&r &7(Page %page% of %maxPages%)"
